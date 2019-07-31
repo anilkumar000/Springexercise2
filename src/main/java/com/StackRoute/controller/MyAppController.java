@@ -8,7 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
+//makes a class as Controller
 public class MyAppController {
+//  Homepage Mapping
   @RequestMapping("/")
   public String getGreetings(){
   return "index";
